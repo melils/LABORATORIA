@@ -1,0 +1,604 @@
+/*reset*/
+*{
+    box-sizing: border-box;
+} 
+html, body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+
+/*head*/
+.head{
+    height: 80px;
+    display: flex;
+}
+
+.head__wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head__right{
+    background-color: #ffe521;
+    font-weight: bold; 
+}
+
+.head__tittle{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.head__left{
+    background-color: #ffe521;
+    font-weight: bold;
+}
+
+.head a{
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    height: 40px;
+    width: 135px;
+    text-align: center;
+   
+}
+
+
+
+/*banner*/
+.banner{
+    background-image: url("img/banner/banner-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    max-width:100%;
+    height: 446px;
+    display: flex;
+    align-items: center;
+     
+}
+
+.banner_principal-text{
+    color: white;
+    font-size: 65px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+.banner_principal-paragraf{
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+/*fundadora*/
+.fundadora{
+    padding: 62px 0px 62px 0px;
+}
+.fundadora__name{
+    padding-left: inherit;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fundadora__descrption{
+    text-align: center;
+    width: 93%;
+    font-size: 22px;
+}
+
+.fundadora__ocupation{
+    text-align: center;
+    color: #999999;
+    font-size: 20px;
+}
+
+
+
+/*impacto*/
+.impacto{
+    padding: 0px 0px 62px 0px;
+}
+.impacto__tittle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+    margin-bottom: auto;
+    margin-top: 0px;
+}
+
+.impacto__text{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.impacto__wrap-numbers{
+    display: flex;
+    padding-top: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.impacto__mil{
+    background-color: #ff009e;
+    width: 170px;
+    height: 132px;
+}
+
+.box-one{
+    color: white;
+    text-align: center;
+}
+
+.impacto__numbers{
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.impacto__cuatrocientos{
+    background-color: #ff009e;
+    width: 170px;
+    height: 132px;
+    margin-left: 20px;
+}
+
+.box-two{
+    color: white;
+    text-align: center;
+}
+
+.impacto__ochenta{
+    background-color: #ff009e;
+    width: 170px;
+    height: 132px;
+    margin-left: 20px;
+}
+
+.box-three{
+    color: white;
+    text-align: center;
+}
+
+.impacto__fourandfive{
+    background-color: #ff009e;
+    width: 170px;
+    height: 132px;
+    margin-left: 20px;
+}
+
+.box-four{
+    color: white;
+    text-align: center;
+}
+
+.impacto__numbers-text{
+    font-size: 11px;
+}
+
+.impacto__final-text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 17px;
+}
+
+
+/*testimonial one*/
+.testimonial-1__bg{
+    background-image: url("img/banner/banner-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 426px;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-1__text{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.testimonial-1__author{
+    color: #ffe521;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.testimonial-1__ocupation{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+
+/*postulantes*/
+.postulantes{
+    padding: 62px 0px 62px 0px;
+}
+.postulants__tittle{
+    margin-bottom: 0px;
+    font-weight: bold; 
+}
+
+.postulants__sub-tittle{
+    margin-top: 5px;
+    font-size: 44px;
+    margin-bottom: 0px;
+}
+
+.postulants__text{
+    width: 960px;
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 38px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.postulantes__box-link{
+    display: flex;
+    justify-content: flex-end;
+}
+.postulants__link{
+    background-color: #ffe521;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+
+/*testimonial two*/
+.testimonial-2__bg{
+    background-image: url("img/banner/banner-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 409px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-2__text{
+    color: white;
+    font-size: 35px;
+    margin-top: 0px;
+}
+.testimonial-2__author{
+    color: #ffe521;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.testimonial-2__ocupation{
+    color: white;
+    margin-top: 0px;
+}
+
+
+/*forbusiness*/
+.forbusiness{
+    padding: 62px 0px 62px 0px;
+}
+
+.forbusiness__tittle{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.forbusiness__link-green{
+    background-color: #56f89a;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+.forbusiness__link-pink{
+    background-color: #ff009e;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    font-weight: bolder;
+}
+
+
+
+/*testimonial three*/
+.testimonial-3__bg{
+    background-image: url("img/banner/banner-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 414px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+.testimonial-3__text{
+    color: white;
+    font-size: 35px;
+    margin-top: 0px;
+    text-align: -webkit-right;
+}
+.testimonial-3__author{
+    color: #56f89a;
+    margin-bottom: 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.testimonial-3__ocupation{
+    color: white;
+    margin-top: 0px;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+/*testimonial four*/
+.testimonial-4__bg{
+    background-image: url("img/banner/banner-5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 428px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-4__text{
+    color: white;
+    font-size: 35px;
+    margin-top: 0px;
+    text-align: -webkit-right;
+}
+
+.testimonial-4__author{
+    color: #ff009e;
+    margin-bottom: 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.testimonial-4__ocupation{
+    color: white;
+    margin-top: 0px;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*aliados*/
+.aliados{
+    background-color: rgb(247, 248, 248);
+    padding: 62px 0px 62px 0px;
+}
+
+.aliados__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aliados__box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.aliados__image-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.aliados__box img{
+    padding: 15px;
+}
+
+.section-tittle{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 23px;
+    padding-bottom: 58px;
+    margin-top: 0px;
+}
+
+
+/*reconocimientos*/
+.section-reconocimientos{
+    padding: 62px 0px 62px 0px;
+}
+.reconocimientos{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 23px;
+    padding-top: 74px;
+    padding-bottom: 45px
+}
+
+.reco__wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reco__img-1{
+    max-width: 260px;   
+}
+
+.reco__img-2{
+    max-width: 280px;
+}
+
+.reco__img-3{
+    max-width: 200px;
+}
+
+
+/*medios*/
+.medios-bg{
+    background-color: rgb(247, 248, 248);
+    margin-top: 0px;
+    padding: 62px 0px 62px 0px;
+}
+
+.medios__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.medios__box-items{
+    width: 26%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.medios__text{
+    width: 236px;
+    text-align: center;
+} 
+
+.img-one, .img-two, .img-three, .img-four,  .img-five,  .img-six {
+    width: 40%;
+}
+
+
+
+/*blog*/
+.blog{
+    padding:62px 0px 62px 0px;
+}
+
+.blog__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__articulo-1{
+    background-color:  rgb(247, 248, 248);
+    padding-bottom: 60px;
+    padding-top: 17px;
+    padding: 20px;
+    width: 302px;
+}
+
+.articles__subtittle{
+    font-weight: bolder;
+    font-size: 20px;    
+}
+
+.blog__articulo-2{
+    background-color:  rgb(247, 248, 248);
+    padding-bottom: 60px;
+    padding-top: 17px;
+    padding: 20px;
+    width: 302px;
+}
+
+.blog__articulo-3{
+    background-color: rgb(247, 248, 248);
+    padding-bottom: 60px;
+    padding-top: 17px;
+    padding: 20px;
+    width: 302px;
+}
+
+.blog__link{
+    color: black;
+}
+
+.blog__final-text{
+    text-align: center;
+}
+
+.blog__enlace{
+    color: black;
+}
+
+
+
+/*footer*/
+.footer{
+    background-color: black;
+}
+
+.footer__wrap{
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footer__img-lab{
+    max-width: 190px;
+    margin-top: 22px;
+    font-size: 16px;
+}
+
+.footer__text{
+    color: white;
+    margin-top: 0px;
+}
+
+.footer__contactos{
+    margin-top: 65px;
+}
+
+.footer__contactos a{
+    text-decoration: none;
+    color: white;
+    margin-left: 325px;
+  
+}
